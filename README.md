@@ -2494,7 +2494,7 @@ Social media, Multi-agent, Productivity
 STARK OS is an open-source, self-hosted social media manager built as a team of seven cooperating AI agents that run on free OpenRouter models.
 - A director agent plans campaigns and delegates to specialist agents for drafting, community replies, research and analytics.
 - A firewalled red-team agent stress-tests drafts for backlash, and a second model fact-checks every post against its source.
-- Publishes to Bluesky, Mastodon, X and LinkedIn with trust levels from approve-every-post to full autopilot, and pauses automatically in a crisis.
+- Publishes for real to Bluesky and Mastodon; for X, LinkedIn and other platforms it prepares drafts to post manually (publishing there is labelled as a simulation). Trust levels range from approve-every-post to full autopilot, and it pauses automatically in a crisis.
 - Python and FastAPI backend with a Next.js dashboard; MIT licensed.
 
 ### Links
